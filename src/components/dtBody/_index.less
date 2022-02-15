@@ -1,0 +1,51 @@
+@import "../../style/common/_variable";
+.dt-body{
+  height: 424px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  .body-left{
+    float: left;
+    width: 35%;
+    height: 100%;
+    background-size: 100% 100%;
+    .logo-lg {
+      margin-left: 70%;
+      margin-top: 140px;
+      z-index: 100;
+    }
+    span{
+      display: block;
+      margin-left:  70%;
+      margin-top: 5px;
+    }
+    .span-en{
+      font-size: 8px;
+    }
+  }
+  .body-right{
+    float: left;
+    color: @dtool-bg-theme;
+    background-color: @dtool-font-white;
+    height: 424px;
+    width: 35%;
+    .body-login{
+      font-size: 2rem;
+      margin-left: 80px;
+      margin-top: 72px;
+      text-align: left;
+    }
+
+    .ant-form-item{
+      width: 60%;
+      margin-top: 5%;
+      margin-left: 15%;
+      .login-btn{
+        width: 100%;
+        background-color: @dtool-bg-theme !important;
+        color: @dtool-font-white;
+      }
+    }
+  }
+
+}
